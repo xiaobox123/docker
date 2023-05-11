@@ -1,0 +1,3 @@
+1. Need to compile the g1024 project on your local server before build docker image.
+2. Make sure all dependcise are installed.
+3. Download emscripten
