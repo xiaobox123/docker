@@ -1,0 +1,3 @@
+[submodule "g1024"]
+	path = g1024
+	url = git@github.com:zkcrossteam/g1024.git
