@@ -9,7 +9,7 @@ RUN apt-get install -y nodejs
 
 RUN apt-get install -y build-essential \
 && apt-get install bash -y \
-&& apt-get install -y clang llvm lld \
+&& apt-get install -y clang llvm lld wabt \
 && apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
     
