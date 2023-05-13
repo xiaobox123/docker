@@ -9,11 +9,11 @@ RUN apt-get install -y nodejs
 
 RUN apt-get install -y build-essential \
 && apt-get install bash -y \
-&& apt-get install -y clang llvm lld wabt \
+&& apt-get install -y clang llvm lld wabt cmake \
 && apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
     
-ENV CLANG clang-14
+ENV CLANG clang
 
 WORKDIR /app
 
